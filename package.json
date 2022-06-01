@@ -1,7 +1,7 @@
 {
-  "name": "reactjs-multi-page-site",
-  "description": "An example multi-page site built using React.js connected to Prismic CMS",
-  "author": "Prismic",
+  "name": "journalists-safety-toolkit",
+  "description": "A PWA for journalists to use to keep their safety and mental health in check.",
+  "author": "Reuben Armstrong (NUJ)",
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.26",
     "@popperjs/core": "^2.11.5",
