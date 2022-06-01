@@ -1,6 +1,6 @@
 # National Union of Journalists Safety Toolkit
 
-> A simple PWA that covers the [Journalists Safety Toolkit](https://journalists-safety.tools)
+> A simple PWA that covers the [Journalists Safety Toolkit](http://journalists-safety.tools)
 
 ## NUJ & SOE
 
