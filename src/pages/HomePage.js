@@ -8,7 +8,9 @@ export const HomePage = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
   return (
     <Layout wrapperClass="page">
-      <AutoplaySlider
+      <h1 style={{margin: "300px auto", textAlign: "center"}}>Coming Soon</h1>
+      
+      {/* <AutoplaySlider
         bullets={false}
         play={true}
         cancelOnInteraction={true}
@@ -113,7 +115,7 @@ export const HomePage = () => {
             </Button>
           </section>
         </div>
-      </AutoplaySlider>
+      </AutoplaySlider> */}
     </Layout>
   );
 };
