@@ -17,9 +17,9 @@ export const HomepageBanner = ({ banner }) => (
       <p className="banner-description">
         <PrismicText field={banner.tagline} />
       </p>
-      <PrismicLink field={banner.button_link} className="banner-button">
+      {/* <PrismicLink field={banner.button_link} className="banner-button">
         <PrismicText field={banner.button_label} />
-      </PrismicLink>
+      </PrismicLink> */}
     </div>
   </section>
 );
