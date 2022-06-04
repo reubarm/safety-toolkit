@@ -3,13 +3,15 @@ import Button from "react-bootstrap/Button";
 import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
+import { AddToHomeScreen } from "react-pwa-add-to-homescreen";
 
 export const HomePage = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
   return (
     <Layout wrapperClass="page">
-      <h1 style={{margin: "300px auto", textAlign: "center"}}>Coming Soon</h1>
-      
+      <AddToHomeScreen />
+      <h1 style={{ margin: "300px auto", textAlign: "center" }}>Coming Soon</h1>
+
       {/* <AutoplaySlider
         bullets={false}
         play={true}
