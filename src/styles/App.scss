@@ -1,9 +1,9 @@
 @font-face {
-  font-family: 'Nexa';
-  src: local('Nexa Black'), local('Nexa--Black'),
-      url('./fonts/Nexa-Black.woff2') format('woff2'),
-      url('./fonts/Nexa-Black.woff') format('woff'),
-      url('./fonts/Nexa-Black.ttf') format('truetype');
+  font-family: "Nexa";
+  src: local("Nexa Black"), local("Nexa--Black"),
+    url("./fonts/Nexa-Black.woff2") format("woff2"),
+    url("./fonts/Nexa-Black.woff") format("woff"),
+    url("./fonts/Nexa-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
@@ -29,16 +29,22 @@ h3,
 h4,
 h5,
 h6,
-p, strong {
+p,
+strong {
   font-family: "Roboto", sans-serif !important;
 }
 
 @import "~react-pro-sidebar/dist/scss/styles.scss";
+
 body {
   margin: 0;
   height: 100vh;
   color: #353535;
   font-family: "Roboto", sans-serif !important;
+  min-height: -webkit-fill-available;
+}
+html {
+  height: -webkit-fill-available;
 }
 
 #root {
@@ -55,15 +61,15 @@ body {
 
 @media (max-width: 760px) {
   .mobile {
-    display: flex!important;
+    display: flex !important;
   }
   .desktop {
-    display: none!important;
+    display: none !important;
   }
 }
 
 .fullpage {
-  background: url('./bg.jpg') no-repeat center center fixed; 
+  background: url("./bg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -82,7 +88,7 @@ body {
     font-family: "Nexa", sans-serif !important;
   }
   h2 {
-    font-size: 2rem!important;
+    font-size: 2rem !important;
     line-height: 2rem;
     font-weight: 900;
     margin: 0 auto 2rem;
@@ -107,7 +113,7 @@ body {
       font-family: "Nexa", sans-serif !important;
     }
     h2 {
-      font-size: 2rem!important;
+      font-size: 2rem !important;
       line-height: auto;
       font-weight: 900;
       color: #d2e2ed;
@@ -256,13 +262,11 @@ body {
 
     @media (max-width: 760px) {
       .section {
-        
-        position: fixed;
-        inset: 0;
-        overflow: auto;
-    
-        display: grid;
-        place-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: space-between;
+        height: 100vh;
         text-align: center;
         padding: 0;
         color: white;
@@ -356,7 +360,7 @@ body {
       }
     }
     footer {
-      display: none!important;
+      display: none !important;
     }
   }
   @media (max-width: 1280px) {
