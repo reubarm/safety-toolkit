@@ -121,7 +121,7 @@ export const HomePage = () => {
           </div>
           <div>
             <section class="section" style={{background: "#964E96"}}>
-              <div style={{height: "80vh"}}>
+              <div>
                 <p>
                   The National Committee for the Safety of Journalists was
                   established in 2020 to investigate and address these
@@ -145,7 +145,7 @@ export const HomePage = () => {
                     data-aos-duration="1200"
                     style={{
                       color: "#000",
-                      margin: "0 auto",
+                      margin: "3rem auto",
                       textTransform: "none",
                       textDecoration: "none",
                       fontSize: "18px",
@@ -160,7 +160,7 @@ export const HomePage = () => {
           </div>
           <div>
             <section class="section" style={{background: "#686DBB"}}>
-              <div style={{height: "80vh"}}>
+              <div>
                 <p>
                   This resource provides clear, simple information and advice,
                   as well as signposting journalists to other important
@@ -183,6 +183,7 @@ export const HomePage = () => {
                       color: "#000",
                       textTransform: "none",
                       textDecoration: "none",
+                      margin: "3rem auto",
                       fontSize: "18px",
                       margin: "0 auto",
                       zIndex: "1",
