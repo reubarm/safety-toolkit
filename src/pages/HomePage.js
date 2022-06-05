@@ -36,6 +36,7 @@ export const HomePage = () => {
                       fontSize: "18px",
                       zIndex: "1",
                       position: "relative",
+                      fontFamily: "Roboto, sans-serif",
                     }}
                   >
                     View Safety Toolkit
@@ -82,38 +83,45 @@ export const HomePage = () => {
           style={{ height: "100vh" }}
         >
           <div style={{ height: "100vh" }}>
-            <section class="section bg">
-              <div>
-                <h1>Journalists Safety Toolkit</h1>
-                <h2>Digital violence: Why it cannot be 'part of the job'</h2>
-                <p>
-                  Danger abounds whatever our walk of life. Journalists,
-                  however, are exposed to particular risks, and in recent years
-                  the instances of abuse, harassment and attacks they face have
-                  sadly been on the increase.
-                </p>
-                <Button
-                  variant="secondary"
-                  size="lg"
-                  href="physical-safety"
-                  style={{
-                    height: "50px",
-                    minWidth: "300px",
-                    maxWidth: "400px",
-                    width: "100%",
-                    margin: "3rem auto 0",
-                    background: "#23527c",
-                    fontWeight: "900",
-                  }}
-                >
-                  View Safety Toolkit
-                </Button>
-              </div>
-            </section>
+          <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>
+          <div
+            style={{ "background-color": "#00a7a6", margin: "0", padding: "5rem 0 0", height: "100vh" }}
+            className="intro center"
+          >
+            <h6 class="sub-title mb-6" data-aos="fade-up">
+              National Union of Journalists &amp; Society of Editors
+            </h6>
+            <h1 class="title mb-26" data-aos="fade-up">
+              Journalists Safety Toolkit
+            </h1>
+            <h2 class="desc mb-53" data-aos="fade-up" >
+              Digital violence: Why it cannot be 'part of the job'
+            </h2>
+            <a
+                    href="/physical-safety"
+                    class="btn-action style-2 aos-init aos-animate"
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    style={{
+                      color: "#000",
+                      textTransform: "none",
+                      textDecoration: "none",
+                      fontSize: "18px",
+                      margin: "0 auto",
+                      zIndex: "1",
+                      position: "relative",
+                      fontFamily: "Roboto, sans-serif",
+                    }}
+                  >
+                    View Safety Toolkit
+                  </a>
+          </div>
+          <img src="/bg.png" style={{ width: "100%", margin: "0" }} />
+        </div>
           </div>
           <div>
-            <section class="section">
-              <div>
+            <section class="section" style={{background: "#964E96"}}>
+              <div style={{height: "80vh"}}>
                 <p>
                   The National Committee for the Safety of Journalists was
                   established in 2020 to investigate and address these
@@ -123,67 +131,67 @@ export const HomePage = () => {
                   safely and to collectively combat behaviour and actions that
                   serve to put journalists at risk and undermine the vital role
                   journalism plays in our society.
-                </p>
-                <br />{" "}
+                </p><br/>
                 <p>
                   Managing these risks is critical if you are to deliver your
                   story, be prepared for your next assignment - and get home
                   safely.{" "}
                 </p>
               </div>
-              <Button
-                variant="secondary"
-                size="lg"
-                href="physical-safety"
-                style={{
-                  height: "50px",
-                  minWidth: "300px",
-                  maxWidth: "400px",
-                  width: "100%",
-                  margin: "3rem auto 7rem",
-                  background: "#23527c",
-                  fontWeight: "900",
-                }}
-              >
-                View Safety Toolkit
-              </Button>
+              <a
+                    href="/physical-safety"
+                    class="btn-action style-2 aos-init aos-animate"
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    style={{
+                      color: "#000",
+                      margin: "0 auto",
+                      textTransform: "none",
+                      textDecoration: "none",
+                      fontSize: "18px",
+                      zIndex: "1",
+                      position: "relative",
+                      fontFamily: "Roboto, sans-serif",
+                    }}
+                  >
+                    View Safety Toolkit
+                  </a>
             </section>
           </div>
           <div>
-            <section class="section">
-              <div>
+            <section class="section" style={{background: "#686DBB"}}>
+              <div style={{height: "80vh"}}>
                 <p>
                   This resource provides clear, simple information and advice,
                   as well as signposting journalists to other important
                   resources. An important part of this work is to highlight the
                   damage abuse and harassment plays, personally and
                   professionally.
-                </p>
-                <br />
+                </p><br/>
                 <p>
-                  {" "}
                   We are committed to ensuring that abuse isn't simply seen as
                   part of the job - that makes empowering journalists to report
                   harassment and attacks a vital priority so that action can be
                   taken against perpetrators.
                 </p>
-              </div>
-              <Button
-                variant="secondary"
-                size="lg"
-                href="physical-safety"
-                style={{
-                  height: "50px",
-                  minWidth: "300px",
-                  maxWidth: "400px",
-                  width: "100%",
-                  margin: "3rem auto 7rem",
-                  background: "#23527c",
-                  fontWeight: "900",
-                }}
-              >
-                View Safety Toolkit
-              </Button>
+              </div>        <a
+                    href="/physical-safety"
+                    class="btn-action style-2 aos-init aos-animate"
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    style={{
+                      color: "#000",
+                      textTransform: "none",
+                      textDecoration: "none",
+                      fontSize: "18px",
+                      margin: "0 auto",
+                      zIndex: "1",
+                      position: "relative",
+                      fontFamily: "Roboto, sans-serif",
+                    }}
+                  >
+                    View Safety Toolkit
+                  </a>
             </section>
           </div>
         </AutoplaySlider>

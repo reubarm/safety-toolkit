@@ -32,9 +32,9 @@ export const Page = () => {
   }, []);
 
   // Return the page if a document was retrieved from Prismic
-  if (page && menu) {
+  if (page) {
     return (
-      <Layout wrapperClass="page" menuDoc={menu}>
+      <Layout wrapperClass="page">
         <HomepageBanner banner={page.data.homepage_banner[0]} />
         <SliceZone slices={page.data.page_content} components={components} />
       </Layout>

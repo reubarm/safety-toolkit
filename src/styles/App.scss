@@ -1,4 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@font-face {
+  font-family: 'Nexa';
+  src: local('Nexa Black'), local('Nexa--Black'),
+      url('./fonts/Nexa-Black.woff2') format('woff2'),
+      url('./fonts/Nexa-Black.woff') format('woff'),
+      url('./fonts/Nexa-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
 
 $sidebar-bg-color: #0c1e35;
 $submenu-bg-color: rgba(255, 255, 255, 0.05);
@@ -69,18 +77,48 @@ body {
     font-size: 4rem;
     line-height: 5rem;
     font-weight: 900;
+    margin: 1rem auto;
     color: #222;
+    font-family: "Nexa", sans-serif !important;
   }
   h2 {
     font-size: 2rem!important;
     line-height: 2rem;
     font-weight: 900;
-    margin: 1rem auto 2rem;
+    margin: 0 auto 2rem;
     color: #d2e2ed;
+    font-family: "Nexa", sans-serif !important;
   }
   h6 {
     font-weight: 900;
     margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .intro {
+    z-index: 99999999999;
+    h1 {
+      font-size: 33px;
+      line-height: 40px;
+      font-weight: 900;
+      margin: 1rem 4rem;
+      color: #222;
+      font-family: "Nexa", sans-serif !important;
+    }
+    h2 {
+      font-size: 2rem!important;
+      line-height: auto;
+      font-weight: 900;
+      color: #d2e2ed;
+      font-family: "Nexa", sans-serif !important;
+      margin: 0 2rem 2rem;
+    }
+    h6 {
+      font-weight: 900;
+      margin-bottom: 1.5rem;
+      margin: 2rem 3rem;
+    }
   }
 }
 
@@ -185,9 +223,9 @@ body {
       color: #333;
       div {
         width: 100%;
-        background: white;
         padding: 3rem;
         border-radius: 20px;
+        text-align: left;
       }
       h1 {
         font-size: 3.7rem;
@@ -223,8 +261,8 @@ body {
         align-content: center;
         height: 100vh !important;
         text-align: center;
-        padding: 5rem;
-        color: #333;
+        padding: 0;
+        color: white;
         h1 {
           font-size: 2.3rem;
           line-height: 3rem;
@@ -239,7 +277,8 @@ body {
           color: #dc2782;
         }
         p {
-          font-size: 1rem;
+          font-size: 17px;
+          line-height: 20px;
           width: 100%;
           margin: 0 auto;
           line-height: 2rem;
