@@ -6,7 +6,6 @@ import { FaHeart, FaBars } from "react-icons/fa";
 import Aside from "../Aside";
 import "../styles/App.scss";
 import "../styles/style.css";
-import { AddToHomeScreen } from "react-pwa-add-to-homescreen";
 
 export const Layout = ({ wrapperClass, menuDoc, children }) => {
   const [collapsed, setCollapsed] = useState(false);
@@ -37,7 +36,6 @@ export const Layout = ({ wrapperClass, menuDoc, children }) => {
   };
   return (
     <div className={`app ${toggled ? "toggled" : ""}`}>
-      <AddToHomeScreen />
       <Aside
         collapsed={collapsed}
         toggled={toggled}

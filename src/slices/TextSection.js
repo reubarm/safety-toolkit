@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { PrismicRichText } from "@prismicio/react";
-import Button from 'react-bootstrap/Button';
+import Button from "react-bootstrap/Button";
 
 /**
  * Text section slice component
@@ -15,10 +15,28 @@ export const TextSection = ({ slice }) => {
       <PrismicRichText field={slice.primary.rich_text} />
       {slice.primary.next_page && (
         <>
-        {slice.primary.next_page[0].text ? (
-          <Button variant="secondary" size="lg" href={slice.primary.next_page_url[0].text} style={{height: "50px", minWidth: "300px", maxWidth: "400px", width: "100%", margin: "3rem auto 7rem", background: "#23527c"}}>
-          <span style={{opacity: "0.7"}}>Next: </span><strong>{slice.primary.next_page[0].text}</strong>
-          </Button>) : <></>}
+          {slice.primary.next_page[0].text ? (
+            <a
+              href={slice.primary.next_page_url[0].text}
+              class="btn-action style-2 aos-init aos-animate"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+              style={{
+                color: "#000",
+                textTransform: "none",
+                textDecoration: "none",
+                fontSize: "18px",
+                zIndex: "1",
+                position: "relative",
+                margin: "3rem auto 0"
+              }}
+            >
+              <span style={{ opacity: "0.7" }}>Next: </span>
+              <strong>{slice.primary.next_page[0].text}</strong>
+            </a>
+          ) : (
+            <></>
+          )}
         </>
       )}
     </section>
