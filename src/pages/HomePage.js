@@ -185,7 +185,6 @@ export const HomePage = () => {
                       textDecoration: "none",
                       margin: "3rem auto",
                       fontSize: "18px",
-                      margin: "0 auto",
                       zIndex: "1",
                       position: "relative",
                       fontFamily: "Roboto, sans-serif",

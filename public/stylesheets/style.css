@@ -17,6 +17,8 @@ footer {
   }
 }
 
+
+
 /* Header */
 .site-header {
   height: 30px;
@@ -55,7 +57,7 @@ footer {
 
 /* Homepage Banner */
 .homepage-banner {
-  margin: 0 auto 50px;
+  margin: 2rem auto;
   padding: 10em 0 8em;
   background-position: center center;
   background-size: cover;
@@ -79,6 +81,8 @@ footer {
   margin-bottom: 0;
 }
 .banner-title {
+
+  font-family: 'Nexa', sans-serif!important;
   color: #ffffff;
   font-size: 70px;
   font-weight: 900;
@@ -101,6 +105,7 @@ footer {
 h4 {
   color: #333;
   font-size: 24px;
+    font-family: 'Nexa', sans-serif!important;
 }
 
 .homepage-text {
