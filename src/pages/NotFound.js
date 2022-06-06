@@ -5,10 +5,6 @@ import { Link } from "react-router-dom";
  */
 export const NotFound = () => (
   <div className="not-found">
-    <h1>Check your internet connection</h1>
-    <h2>Document not found</h2>
-    <p>
-      <Link to="/">Return to Home</Link>
-    </p>
+    <img src="/loading.gif" style={{margin: "0 auto"}} width="100" height="100" />
   </div>
 );
