@@ -3,7 +3,7 @@ import { Header } from "./Header";
 import { Footer } from "./Footer";
 import Switch from "react-switch";
 import { FaHeart, FaBars } from "react-icons/fa";
-import Aside from "../Aside";
+import Sidebar from "./Sidebar";
 import "../styles/App.scss";
 import "../styles/style.css";
 
@@ -36,7 +36,7 @@ export const Layout = ({ wrapperClass, menuDoc, children }) => {
   };
   return (
     <div className={`app ${toggled ? "toggled" : ""}`}>
-      <Aside
+      <Sidebar
         collapsed={collapsed}
         toggled={toggled}
         handleToggleSidebar={handleToggleSidebar}

@@ -18,7 +18,7 @@ export const TextSection = ({ slice }) => {
           {slice.primary.next_page[0].text ? (
             <a
               href={slice.primary.next_page_url[0].text}
-              class="btn-action style-2 aos-init aos-animate"
+              className="btn-action style-2 aos-init aos-animate"
               data-aos="fade-up"
               data-aos-duration="1200"
               style={{

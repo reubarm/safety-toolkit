@@ -14,7 +14,7 @@ import { FaHeart, FaSmile, FaPray, FaPaperPlane, FaPaperclip, FaHouseUser } from
 import { MdHealthAndSafety } from "react-icons/md";
 import { AiOutlineSafetyCertificate, AiFillSecurityScan } from "react-icons/ai";
 
-const Aside = ({ collapsed, toggled, handleToggleSidebar }) => {
+const Sidebar = ({ collapsed, toggled, handleToggleSidebar }) => {
   return (
     <ProSidebar
       collapsed={collapsed}
@@ -25,7 +25,7 @@ const Aside = ({ collapsed, toggled, handleToggleSidebar }) => {
     >
       <SidebarHeader style={{ textAlign: "center", background: "#525f64" }}>
         <a href="/">
-          <img src="/logo.svg" style={{ margin: "20px auto" }} />
+          <img src="/images/logo.svg" style={{ margin: "20px auto" }} />
         </a>
       </SidebarHeader>
 
@@ -121,4 +121,4 @@ const Aside = ({ collapsed, toggled, handleToggleSidebar }) => {
   );
 };
 
-export default Aside;
+export default Sidebar;

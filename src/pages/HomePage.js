@@ -9,24 +9,24 @@ export const HomePage = () => {
   return (
     <Layout wrapperClass="page">
       <div className="desktop">
-        {/* <div class="fullpage"></div> */}
+        {/* <div className="fullpage"></div> */}
         <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>
           <div
-            style={{ "background-color": "#00a7a6", margin: "0", padding: "5rem 0 0" }}
+            style={{ "backgroundColor": "#00a7a6", margin: "0", padding: "5rem 0 0" }}
             className="intro center"
           >
-            <h6 class="sub-title mb-6" data-aos="fade-up">
+            <h6 className="sub-title mb-6" data-aos="fade-up">
               National Union of Journalists &amp; Society of Editors
             </h6>
-            <h1 class="title mb-26" data-aos="fade-up">
+            <h1 className="title mb-26" data-aos="fade-up">
               Journalists Safety Toolkit
             </h1>
-            <h2 class="desc mb-53" data-aos="fade-up">
+            <h2 className="desc mb-53" data-aos="fade-up">
               Digital violence: Why it cannot be 'part of the job'
             </h2>
             <a
                     href="/physical-safety"
-                    class="btn-action style-2 aos-init aos-animate"
+                    className="btn-action style-2 aos-init aos-animate"
                     data-aos="fade-up"
                     data-aos-duration="1200"
                     style={{
@@ -42,7 +42,7 @@ export const HomePage = () => {
                     View Safety Toolkit
                   </a>
           </div>
-          <img src="/bg.png" style={{ width: "100%", margin: "0" }} />
+          <img src="/images/bg.png" style={{ width: "100%", margin: "0" }} />
         </div>
 
 
@@ -85,21 +85,21 @@ export const HomePage = () => {
           <div style={{ height: "100vh" }}>
           <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>
           <div
-            style={{ "background-color": "#00a7a6", margin: "0", padding: "5rem 0 0", height: "100vh" }}
+            style={{ "backgroundColor": "#00a7a6", margin: "0", padding: "5rem 0 0", height: "100vh" }}
             className="intro center"
           >
-            <h6 class="sub-title mb-6" data-aos="fade-up">
+            <h6 className="sub-title mb-6" data-aos="fade-up">
               National Union of Journalists &amp; Society of Editors
             </h6>
-            <h1 class="title mb-26" data-aos="fade-up">
+            <h1 className="title mb-26" data-aos="fade-up">
               Journalists Safety Toolkit
             </h1>
-            <h2 class="desc mb-53" data-aos="fade-up" >
+            <h2 className="desc mb-53" data-aos="fade-up" >
               Digital violence: Why it cannot be 'part of the job'
             </h2>
             <a
                     href="/physical-safety"
-                    class="btn-action style-2 aos-init aos-animate"
+                    className="btn-action style-2 aos-init aos-animate"
                     data-aos="fade-up"
                     data-aos-duration="1200"
                     style={{
@@ -116,11 +116,11 @@ export const HomePage = () => {
                     View Safety Toolkit
                   </a>
           </div>
-          <img src="/bg.png" style={{ width: "100%", margin: "0" }} />
+          <img src="/images/bg.png" style={{ width: "100%", margin: "0" }} />
         </div>
           </div>
           <div>
-            <section class="section" style={{background: "#964E96"}}>
+            <section className="section" style={{background: "#964E96"}}>
               <div>
                 <p>
                   The National Committee for the Safety of Journalists was
@@ -140,7 +140,7 @@ export const HomePage = () => {
               </div>
               <a
                     href="/physical-safety"
-                    class="btn-action style-2 aos-init aos-animate"
+                    className="btn-action style-2 aos-init aos-animate"
                     data-aos="fade-up"
                     data-aos-duration="1200"
                     style={{
@@ -159,7 +159,7 @@ export const HomePage = () => {
             </section>
           </div>
           <div>
-            <section class="section" style={{background: "#686DBB"}}>
+            <section className="section" style={{background: "#686DBB"}}>
               <div>
                 <p>
                   This resource provides clear, simple information and advice,
@@ -176,7 +176,7 @@ export const HomePage = () => {
                 </p>
               </div>        <a
                     href="/physical-safety"
-                    class="btn-action style-2 aos-init aos-animate"
+                    className="btn-action style-2 aos-init aos-animate"
                     data-aos="fade-up"
                     data-aos-duration="1200"
                     style={{
