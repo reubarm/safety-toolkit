@@ -3,11 +3,16 @@ import Button from "react-bootstrap/Button";
 import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
+import { AddToHomeScreen } from 'react-pwa-add-to-homescreen';
 
 export const HomePage = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
   return (
     <Layout wrapperClass="page">
+      <AddToHomeScreen
+      skipFirstVisit={false}
+      
+       />
       <div className="desktop">
         {/* <div className="fullpage"></div> */}
         <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>

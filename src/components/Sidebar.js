@@ -31,23 +31,6 @@ const Sidebar = ({ collapsed, toggled, handleToggleSidebar }) => {
 
       <SidebarContent style={{ background: "#525f64", color: "#FFF" }}>
         <Menu>
-          {/* <SubMenu icon={<MdHealthAndSafety style={{fontSize: '24px'}} style={{fontSize: '24px'}}/>} title="Physical Safety">
-            <MenuItem>Doorstepping<Link to="/physical-safety" /></MenuItem>
-            <MenuItem>Courts<Link to="/physical-safety" /></MenuItem>
-            <MenuItem>Public Order<Link to="/physical-safety" /></MenuItem>
-            <MenuItem>Disasters<Link to="/physical-safety" /></MenuItem>
-          </SubMenu>
-          <SubMenu icon={<AiFillSecurityScan  style={{fontSize: '24px'}}/>} title="Information Security">
-            <MenuItem>Tradecraft<Link to="/information-security" /></MenuItem>
-            <MenuItem>Smart Tech<Link to="/information-security" /></MenuItem>
-            <MenuItem>References<Link to="/information-security" /></MenuItem>
-          </SubMenu>
-          <SubMenu icon={<AiOutlineSafetyCertificate  style={{fontSize: '24px'}}/>} title="Digital Safety">
-            <MenuItem>Criminal Offences<Link to="/digital-safety" /></MenuItem>
-            <MenuItem>Online Abuse<Link to="/digital-safety" /></MenuItem>
-            <MenuItem>Social Media<Link to="/digital-safety" /></MenuItem>
-            <MenuItem>Personal Information<Link to="/digital-safety" /></MenuItem>
-          </SubMenu> */}
           <MenuItem icon={<MdHealthAndSafety style={{fontSize: '24px'}}/>}><Link to="/physical-safety" />Physical Safety</MenuItem>
           <MenuItem icon={<AiFillSecurityScan style={{fontSize: '24px'}}/>}><Link to="/information-security" />Information Security</MenuItem>
           <MenuItem icon={<AiOutlineSafetyCertificate style={{fontSize: '24px'}}/>}><Link to="/digital-safety" />Digital Safety</MenuItem>

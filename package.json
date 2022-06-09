@@ -4,6 +4,7 @@
   "author": "Reuben Armstrong (NUJ)",
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.26",
+    "@ideasio/add-to-homescreen-react": "^1.0.10",
     "@popperjs/core": "^2.11.5",
     "@prismicio/client": "^6.4.2",
     "@prismicio/helpers": "^2.0.0-beta.6",
