@@ -11,6 +11,7 @@ import { HomepageBanner } from "../components/HomepageBanner";
 import { components } from "../slices";
 import { Layout } from "../components/Layout";
 import { NotFound } from "./NotFound";
+import { Footer } from "../components/Footer";
 
 /**
  * Website page component
@@ -37,6 +38,8 @@ export const Page = () => {
       <Layout wrapperClass="page">
         <HomepageBanner banner={page.data.homepage_banner[0]} />
         <SliceZone slices={page.data.page_content} components={components} />
+        
+        <Footer />
       </Layout>
     );
   } else if (notFound) {

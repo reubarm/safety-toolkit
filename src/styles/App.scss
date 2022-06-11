@@ -98,6 +98,12 @@ html {
 .intro {
   z-index: 99999999999;
   height: 100%;
+  background: #00a7a6; 
+  margin: 0;
+  padding: 5rem 2rem 0;
+  max-width: 1000px;
+  margin: 0 auto;
+
   h1 {
     font-size: 4rem;
     line-height: 5rem;
@@ -117,6 +123,9 @@ html {
   h6 {
     font-weight: 900;
     margin-bottom: 1.5rem;
+  }
+  p {
+    color: white;
   }
 }
 

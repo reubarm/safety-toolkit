@@ -48,7 +48,6 @@ export const Layout = ({ wrapperClass, menuDoc, children }) => {
         </div>
         <Header menuDoc={menuDoc} />
         {children}
-        <Footer />
       </main>
     </div>
   );

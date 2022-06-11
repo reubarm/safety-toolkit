@@ -76,7 +76,7 @@ const Sidebar = ({ collapsed, toggled, handleToggleSidebar }) => {
                 fontWeight: "900",
               }}
             >
-              National Union of Journalists
+              N U J
             </span>
           </a>
           <br />
