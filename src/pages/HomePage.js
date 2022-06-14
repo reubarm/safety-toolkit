@@ -11,7 +11,7 @@ export const HomePage = () => {
     <Layout wrapperClass="page">
       <AddToHomeScreen
       skipFirstVisit={false}
-      
+      style={{zIndex: '9999'}}
        />
       <div className="desktop">
         <div style={{ height: "100vh", display: "flex", flexDirection: "column", backgroundColor: "#00a7a6" }}>

@@ -77,6 +77,10 @@ html {
   height: 100vh;
 }
 
+.add-to-home-screen-pwa {
+  z-index: 99999;
+}
+
 .add-to-home-screen-pwa__notify {
   button {
     padding: 11px 45px!important;
@@ -90,7 +94,7 @@ html {
     color: #333!important;
     padding: 20px 48px!important;
     border-radius: 33px!important;
-    z-index: 1;
+    z-index: 99999!important;
     border: none!important;
   }
 }
@@ -130,7 +134,7 @@ html {
 
 @media (max-width: 760px) {
   .intro {
-    z-index: 99999999999;
+    z-index: 101;
     h1 {
       font-size: 33px;
       line-height: 40px;
