@@ -25,7 +25,7 @@ const Sidebar = ({ collapsed, toggled, handleToggleSidebar }) => {
     >
       <SidebarHeader style={{ textAlign: "center", background: "#525f64" }}>
         <a href="/">
-          <img src="/images/logo.svg" style={{ margin: "20px auto" }} />
+          <img src="/android-chrome-512x512.png" style={{ margin: "20px auto", borderRadius: "50%" }} width="170" />
         </a>
       </SidebarHeader>
 
