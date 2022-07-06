@@ -10,9 +10,9 @@ import {
   SidebarFooter,
   SidebarContent,
 } from "react-pro-sidebar";
-import { FaHeart, FaSmile, FaAngellist, FaPaperPlane, FaPaperclip, FaHouseUser } from "react-icons/fa";
+import { FaHeart, FaSmile, FaUserLock, FaPaperPlane, FaPaperclip, FaHouseUser } from "react-icons/fa";
 import { MdHealthAndSafety, MdPerson } from "react-icons/md";
-import { AiOutlineSafetyCertificate, AiFillSecurityScan } from "react-icons/ai";
+import { AiOutlineSafetyCertificate, AiFillSecurityScan, AiTwotoneCamera } from "react-icons/ai";
 
 const Sidebar = ({ collapsed, toggled, handleToggleSidebar }) => {
   return (
@@ -35,6 +35,8 @@ const Sidebar = ({ collapsed, toggled, handleToggleSidebar }) => {
           <MenuItem icon={<MdHealthAndSafety style={{fontSize: '24px'}}/>}><Link to="/physical-safety" />Physical Safety</MenuItem>
           <MenuItem icon={<MdPerson style={{fontSize: '24px'}}/>}>Protected Characteristics<Link to="/protected-characteristics" /></MenuItem>
           <MenuItem icon={<AiFillSecurityScan style={{fontSize: '24px'}}/>}><Link to="/information-security" />Information Security</MenuItem>
+          <MenuItem icon={<AiTwotoneCamera style={{fontSize: '24px'}}/>}><Link to="/photographers" />Photographers</MenuItem>
+          <MenuItem icon={<FaUserLock style={{fontSize: '24px'}}/>}><Link to="/courts" />Courts</MenuItem>
           <MenuItem icon={<FaHouseUser style={{fontSize: '24px'}}/>}><Link to="/lawfare" />Lawfare/SLAPPS</MenuItem>
           <MenuItem icon={<FaPaperclip style={{fontSize: '24px'}}/>}><Link to="/right-to-report" />Right to Report</MenuItem>
           <MenuItem icon={<FaHeart style={{fontSize: '24px'}}/>}><Link to="/mental-health" />Mental Health</MenuItem>
