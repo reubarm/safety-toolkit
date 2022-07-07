@@ -11,7 +11,7 @@ import {
   SidebarContent,
 } from "react-pro-sidebar";
 import { FaHeart, FaSmile, FaUserLock, FaPaperPlane, FaPaperclip, FaHouseUser } from "react-icons/fa";
-import { MdHealthAndSafety, MdPerson } from "react-icons/md";
+import { MdHealthAndSafety, MdPerson, MdOutlineContactSupport } from "react-icons/md";
 import { AiOutlineSafetyCertificate, AiFillSecurityScan, AiTwotoneCamera } from "react-icons/ai";
 
 const Sidebar = ({ collapsed, toggled, handleToggleSidebar }) => {
@@ -41,6 +41,7 @@ const Sidebar = ({ collapsed, toggled, handleToggleSidebar }) => {
           <MenuItem icon={<FaPaperclip style={{fontSize: '24px'}}/>}><Link to="/right-to-report" />Right to Report</MenuItem>
           <MenuItem icon={<FaHeart style={{fontSize: '24px'}}/>}><Link to="/mental-health" />Mental Health</MenuItem>
           <MenuItem icon={<FaSmile style={{fontSize: '24px'}}/>}><Link to="/workplace-safety" />Workplace Safety</MenuItem>
+          <MenuItem icon={<MdOutlineContactSupport style={{fontSize: '24px'}}/>}><Link to="/help" />Help &amp; Support</MenuItem>
           <SubMenu icon={<FaPaperPlane  style={{fontSize: '24px'}}/>} title="Resources"><Link to="/resources" />
             <MenuItem>Employer Responsibilities<Link to="/resources" /></MenuItem>
             <MenuItem>Equality<Link to="/resources" /></MenuItem>
